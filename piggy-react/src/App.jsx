@@ -6,6 +6,8 @@ import Footer from "./Static/Footer";
 import PiggyBank from "./Pages/PiggyBank";
 import Invest from "./Pages/Invest";
 import Stories from "./Pages/Stories";
+import Faqs from "./Pages/faqs";
+import Shop from "./Pages/Shop";
 
 const App = () => {
   return (
@@ -17,6 +19,8 @@ const App = () => {
           <Route path="/piggybank" element={<PiggyBank />} />
           <Route path="/invest" element={<Invest />} />
           <Route path="/stories" element={<Stories />} />
+          <Route path="/faqs" element={<Faqs />} />
+          <Route path="/Shop" element={<Shop />} />
         </Routes>
         <Footer />
       </BrowserRouter>
